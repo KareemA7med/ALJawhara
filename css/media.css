@@ -1,0 +1,165 @@
+@media screen and (max-width:280px) {
+    header
+    {
+        height: 190px !important;
+    }
+    .navbar-brand
+    {
+        width: 50% !important;
+    }
+    .vip::before {
+        width: 13% !important;
+    }
+    .mynav ul li a:hover::before {
+        width: 13%;
+    }
+    .one
+    {
+        bottom: 2% !important;
+        width: 35px;
+        height: 50px;
+    }
+    .desc
+    {
+        font-size: 18px !important;
+    }
+    .navbar-toggler-icon{
+        font-size: 15px;
+    }
+    .statics {
+        height: 950px;
+    }
+    .stat {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .static {
+        width: 100%;
+    }
+}
+@media screen and (min-width:290px) and (max-width:412px)
+{
+    header{
+        height: 250px !important;
+    }
+    .navbar-brand{
+        width: 50% !important;
+    }
+    .vip::before {
+        width: 13% !important;
+    }
+    .mynav ul li a:hover::before {
+        width: 13%;
+    }
+    .one
+    {
+        bottom: 3% !important;
+        height: 55px;
+    }
+    .desc
+    {
+        font-size: 25px !important;
+    }
+    .statics {
+        height: 950px;
+    }
+
+    .stat {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .static {
+        width: 100%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:601px)
+{
+    header {
+        height: 270px !important;
+    }
+    .vip::before {
+        width: 13% !important;
+    }
+    .mynav ul li a:hover::before {
+        width: 13%;
+    }
+    .one {
+        bottom: 3%;
+        width: 35px;
+        height: 55px;
+    }
+    .desc {
+        font-size: 25px !important;
+    }
+    .statics {
+        height: 950px;
+    }
+
+    .stat {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .static {
+        width: 100%;
+    }
+}
+@media screen and (min-width:601px) and ( max-width:768px)
+{
+    header
+    {
+        height: 50vh !important;
+    }
+    .one
+    {
+        bottom: 5% !important;
+    }
+    
+    .desc
+    {
+        font-size: 40px !important;
+        top: 35%;
+    }
+    .statics {
+        height: 950px;
+    }
+    .stat {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .static {
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) and ( max-width:992px)
+{
+    
+header{
+    height: 600px !important;
+    }
+    .one {
+            bottom: 10% !important;
+    }
+    .desc {
+            font-size: 50px !important;
+            top: 40%;
+    }
+    .statics {
+        height: 940px;
+    }
+    .statics {
+        height: 950px;
+    }
+    .stat {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .static {
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px)
+{
+    
+}
